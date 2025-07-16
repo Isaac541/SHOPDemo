@@ -1,0 +1,270 @@
+body{
+background-color: antiquewhite;
+}
+
+header{
+    position: relative;   
+    padding: 1%;
+    display: flex;
+}
+.logo img{
+    position: relative;
+    left: 7%;
+    width: 20%;
+}
+
+/**/
+
+.navigation{
+position: absolute;  
+right: 10%;  
+}
+.navigation a{
+    text-decoration: none;
+   
+}
+
+.navigation nav{
+    display: flex;
+}
+
+.navigation nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navigation nav ul li{
+    margin-right: 30px;
+    
+}
+
+/*Left most container styling*/
+.first-footer{
+    padding: 15px;
+    position: absolute;
+}
+
+.left-most-part{
+    position: relative;
+    top: 10%;
+}
+
+.left-most-part p1{
+    position: relative;
+    color: green;
+    font-size: 2em;
+    left: 10%;
+    top: 10%;
+}
+
+.left-most-part p2{
+    position: relative;
+    left: 10%;
+    top: 10px;
+}
+
+.left-most-part .email{
+    position: relative;
+    left: 10%;
+    top: 30px;
+}
+
+.email form{
+    position: relative;
+}
+
+.email form button{
+    background-color: green;
+    color: white;
+}
+
+.email p{
+    position: relative;
+}
+
+
+
+/*right most container styling*/
+/*uppermost first part right footer containe*/
+
+.first-footer-right{
+    position:absolute;
+    top: 10%;
+    right: 12%;
+    background-color: brown;
+    height: 25%;
+    width: 30%;
+}
+
+.first-footer-right .first-container{
+    position: absolute;
+    left: 3%;
+    top: 3%;
+    background-color: aqua;
+    width: 50%;
+    height: 85%;
+    border-radius: 0px;
+}
+
+.first-footer-right .first-container .second-container{
+    position: relative;
+    left: 50%;
+    width: 45%;
+    height: 35%;
+    background-color: red;
+    z-index: 2;
+}
+
+.first-footer-right .third-container{
+    position: absolute;
+    right: 5.1%;
+    width: 45%;
+    height: 38%;
+    bottom: 10%;
+    background-color: purple;
+    z-index: 3;
+}
+
+
+.first-footer-right .fouth-container{
+    position: absolute;
+    left: 4%;
+    width: 43%;
+    height: 70%;
+    top: 20%;
+    background-color: orange;
+    z-index: 4;
+}
+
+.first-footer-right .fifth-container{
+    position: absolute;
+    right: 4%;
+    background-color:white;
+    width: 40%;
+    height: 80%;
+    bottom: 5%;
+    border-radius: 15px;
+}
+
+.sixth-container{
+    position: absolute;
+    right: 40%;
+    background-color: yellowgreen;
+    width: 15%;
+    height: 40%;
+    border-radius: 15px;
+}
+
+
+
+
+
+/*down most green background container styling*/
+.second-footer{
+    position: absolute;
+    background-color: green;
+    width: 99%;
+    height: 62%;
+    bottom: -20%;
+}
+
+.second-footer p1{
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    font-size: 2em;
+}
+
+.second-footer p2{
+    position: absolute;
+    top: 18%;
+    left: 4%;
+}
+
+.second-footer p3{
+    position: absolute;
+    top: 18%;
+    right: 4%;
+    text-decoration: none;
+}
+
+
+.fc-one img{
+    position: absolute;
+    bottom: 13%;
+    height: 60%;
+    left: 17%;
+    text-align: center;
+}
+
+.fc-one p{
+    position: absolute;
+    bottom: 1%;
+    left: 20%;
+    color: white;
+    text-align: center;
+}
+
+
+.fc-two img{
+    position: absolute;
+    bottom: 13%;
+    height: 60%;
+    left: 31%;
+}
+
+.fc-two p{
+    position: absolute;
+    bottom: 1%;
+    left: 33%;
+    color: white;
+    text-align: center;
+}
+
+.fc-three img{
+    position: absolute;
+    bottom: 13%;
+    height: 60%;
+    left: 42%;
+}
+
+.fc-three p{
+    position: absolute;
+    bottom: 1%;
+    left: 44%;
+    color: white;
+    text-align: center;
+}
+
+
+.fc-four img{
+    position: absolute;
+    bottom: 13%;
+    height: 60%;
+    right: 32%;
+}
+
+.fc-four p{
+    position: absolute;
+    bottom: 1%;
+    right: 33.5%;
+    color: white;
+    text-align: center;
+}
+
+
+.fc-five img{
+    position: absolute;
+    bottom: 13%;
+    height: 60%;
+    right: 18%;
+}
+
+.fc-five p{
+    position: absolute;
+    bottom: 1%;
+    right: 21%;
+    color: white;
+    text-align: center;
+}
